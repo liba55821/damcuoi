@@ -1,0 +1,13 @@
+# Bỏ qua runtime Windows (chứa node.exe 91MB) khi đẩy lên GitHub/Render
+runtime/
+
+# Dependency
+node_modules/
+
+# OS and logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

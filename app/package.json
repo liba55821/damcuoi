@@ -1,0 +1,11 @@
+{
+  "name": "dam-cuoi-live-app",
+  "version": "1.0.0",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

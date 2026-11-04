@@ -1,0 +1,20 @@
+{
+  "name": "dam-cuoi-live",
+  "version": "1.0.0",
+  "description": "Tiệc Cưới Online Pro - Đám Cưới Livestream Tương Tác TikTok",
+  "main": "app/server.cjs",
+  "scripts": {
+    "start": "node app/server.cjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "dam-cuoi-live",
+    "tiktok-live",
+    "tikfinity",
+    "wedding-overlay"
+  ],
+  "author": "Đức Quân",
+  "license": "ISC"
+}

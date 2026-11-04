@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tiec-cuoi-live
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: ""
+    startCommand: node app/server.cjs
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
